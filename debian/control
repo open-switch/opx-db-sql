@@ -1,0 +1,17 @@
+Source: opx-db-sql
+Section: net
+Priority: optional
+Maintainer: Dell <support@dell.com>
+Build-Depends: debhelper (>= 9), dh-autoreconf, 
+ libopx-common-dev,libopx-logging-dev,libsqlite3-dev,sqlite3
+Standards-Version: 3.9.3
+
+Package: libopx-db-sql1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This package contains implementation of database abstractions
+
+Package: libopx-db-sql-dev
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},libopx-common-dev,libopx-logging-dev,libsqlite3-0,libopx-db-sql1 (= ${binary:Version})
+Description: This package contains implementation of database abstractions
