@@ -3,12 +3,12 @@ Section: net
 Priority: optional
 Maintainer: Dell EMC <ops-dev@lists.openswitch.net>
 Build-Depends: debhelper (>= 9), dh-autoreconf, 
- libopx-common-dev,libopx-logging-dev,libsqlite3-dev,sqlite3
+ libopx-common-dev,libopx-logging-dev,libsqlite3-dev
 Standards-Version: 3.9.3
 
 Package: libopx-db-sql1
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, sqlite3
 Description: This package contains implementation of database abstractions
 
 Package: libopx-db-sql-dev
