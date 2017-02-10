@@ -1,3 +1,14 @@
+opx-db-sql (1.0.2) unstable; urgency=medium
+
+  [ J.T. Conklin ]
+  * Add standard copyright boilerplate
+  * Remove legacy Makefile
+
+  [ Howard Persh ]
+  * sqlite3 is a run-time dependency, not a build dependency
+
+ -- Dell EMC <opx-dev@lists.openswitch.net>  Fri, 10 Feb 2017 21:20:06 +0000
+
 opx-db-sql (1.0.1) unstable; urgency=medium
 
   * Initial release.
