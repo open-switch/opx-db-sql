@@ -27,7 +27,7 @@
 typedef void * db_sql_handle_t;
 
 /** Maximum Length of SQL Command  */
-#define DB_SQL_CMD_MAX_LEN 255
+#define DB_SQL_CMD_MAX_LEN 512
 /** Database operation code length */
 #define DB_SQL_OPCODE_LENGTH 16
 /** Maximum number of Database Records */
