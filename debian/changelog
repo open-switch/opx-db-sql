@@ -2,7 +2,7 @@ opx-db-sql (1.1.1) unstable; urgency=medium
 
   * Increasing the MAX length of SQL commands
 
- -- Dell EMC <ops-dev@lists.openswitch.net>  Wed, 22 June 2017 11:41:31 -0700
+ -- Dell EMC <ops-dev@lists.openswitch.net>  Wed, 22 Jun 2017 11:41:31 -0700
 
 opx-db-sql (1.0.2) unstable; urgency=medium
 
